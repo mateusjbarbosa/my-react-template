@@ -8,15 +8,13 @@ export function Counter() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-2">
-      <p className="px-6 py-2" id="counter">
-        Counter: {counter}
-      </p>
+    <div className="flex items-center gap-2 rounded-lg border border-slate-300 px-4 py-2">
+      <p>Counter: {counter}</p>
       <button
         className="rounded-lg bg-slate-500 px-4 py-2 font-medium text-slate-100"
         onClick={handleIncrementCounter}
       >
-        Increment
+        +
       </button>
     </div>
   );
