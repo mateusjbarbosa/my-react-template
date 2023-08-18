@@ -22,4 +22,14 @@ Version control tools:
 - husky
 - lint-staged
 
+CI/CD:
+
+- Github Actions
+
+Deploy:
+
+- Github Pages
+
+Visit at: https://mateusjbarbosa.github.io/my-react-template/
+
 Project managed by pnpm.
