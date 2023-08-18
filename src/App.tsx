@@ -1,3 +1,3 @@
 export function App() {
-  return <h1>Mateus José Barbosa</h1>;
+  return <h1>Template</h1>;
 }
