@@ -1,4 +1,4 @@
 {
-  "*.{json,md,html,tsx}": "pnpm prettier",
+  "*.{json,md,html}": "pnpm prettier",
   "*.{js,ts,tsx}": "pnpm lint"
 }
