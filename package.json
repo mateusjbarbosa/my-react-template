@@ -11,7 +11,9 @@
     "lint": "pnpm prettier && pnpm eslint",
     "prepare": "husky install",
     "preview": "vite preview",
-    "test": "jest --watchAll"
+    "test": "jest --runInBand",
+    "test:watch": "pnpm jest -- --watchAll --coverage",
+    "test:staged": "pnpm jest -- --findRelatedTests --passWithNoTests"
   },
   "dependencies": {
     "react": "18.2.0",

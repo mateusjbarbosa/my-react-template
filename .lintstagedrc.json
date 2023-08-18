@@ -1,4 +1,5 @@
 {
   "*.{json,md,html}": "pnpm prettier",
-  "*.{js,ts,tsx}": "pnpm lint"
+  "*.{js,ts,tsx}": "pnpm lint",
+  "*.{ts,tsx}": "pnpm test:staged"
 }
